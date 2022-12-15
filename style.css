@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: 'Andalé Mono', monospace;
+}
+
+.choiceBtn{
+    line-height: 40px;
+    background-color: rgb(92, 81, 124);
+    color: white;
+    border: none;
+    transition: ease-in-out 0.4s;
+    width: 10%;
+}
+
+.choiceBtn:hover {
+    transform: scale(1.1,1.1);
+    background-color: rgb(140, 128, 172);
+}
+
+#playerText{
+    color: blue;
+}
+
+#computerText{
+    color: red;
+}
+
+.gameText {
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
